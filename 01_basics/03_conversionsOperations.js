@@ -19,5 +19,21 @@ let booleanis = Boolean(booleanvalueis);
 // if we are writing "reddy" then we are getting true 
  let somenumber = 27
  let stringnumber = String(somenumber)
- console.log(stringnumber)
- console.log(typeof stringnumber)
+//  console.log(stringnumber)
+//  console.log(typeof stringnumber)
+
+//*********************************************operations part********************************************
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue)
+
+let str1 = "pawan"
+let str2  = " reddy"
+let str3  = str1 + str2
+console.log(str3)
+
+console.log("2" + 3)
+console.log(2 + "3")
+console.log("2" + 3 + 3)
+console.log(2 + 3 + "3")
