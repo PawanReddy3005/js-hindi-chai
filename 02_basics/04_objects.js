@@ -26,9 +26,22 @@ const obj2 = {3: "c" , 4: "d"}
 const obj3 = {...obj1, ...obj2} // this syntax will be used further 
 // console.log(obj3);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+
+const course = {
+    coursename : "js in hindi",
+    coursePrice : "999",
+    courseInstructor : "hitesh",
+}
+
+const {courseInstructor : instructor} = course // here we can destructure the courseInstructor by instructor using this synatx
+// console.log(courseInstructor);
+console.log(instructor);
+
+
 
 
 
